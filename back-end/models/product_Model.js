@@ -7,6 +7,9 @@ const Products =  db.define('products',{
     title:{
         type: DataTypes.STRING
     },
+    type:{
+        type: DataTypes.STRING
+    },
     price:{
         type: DataTypes.DOUBLE
     }

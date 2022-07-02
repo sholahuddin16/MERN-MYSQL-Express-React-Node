@@ -5,6 +5,6 @@ const db = new Sequelize('mern_db', 'root', '', {
     dialect: "mysql"    
 });
 
-db.sync({}); //auto singkronasi ke database
+//db.sync({}); //auto singkronasi ke database
 
 export default db;
